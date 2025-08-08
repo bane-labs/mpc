@@ -25,12 +25,12 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 
 ## Phase1 Attestations
 
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
+|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
+|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
+|NGD        |071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad|4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r|         |
+|NSPCC      |                                                                |                                            |         |
+|AxLabs     |                                                                |                                            |         |
+|lazynode   |                                                                |                                            |         |
 
 The beacon challenge for sealing: 
 
