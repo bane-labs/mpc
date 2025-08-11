@@ -32,7 +32,8 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 |AxLabs     |4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e|CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w|         |
 |lazynode   |2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c|8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2|         |
 
-The beacon challenge for sealing: 
+The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8` (Hash of Bitcoin [#909534](https://btcscan.org/block/0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8)).
+
 
 ## Phase2 Attestations
 
