@@ -34,6 +34,11 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 
 The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8` (Hash of Bitcoin [#909534](https://btcscan.org/block/0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8)).
 
+#### Sealed SRS
+
+|File Checksum                                                   |NeoFS Object ID                             |Cloud URL|
+|----------------------------------------------------------------|--------------------------------------------|---------|
+|1a1f5d0928659170b925d7b681756b82ecade7fa61877042b69e6680a25c53ff|H9i8kUoujytHrsGBRpfWc91M1fE7KnptvFAVgx6nFRx9|         |
 
 ## Phase2 Attestations
 
