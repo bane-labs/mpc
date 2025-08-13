@@ -4,13 +4,13 @@ This is a repository for Neo X ZK-DKG MPC ceremony, please refer [bane-labs/zk-d
 
 ## Information
 
-|Name              |Property                                    |
-|------------------|--------------------------------------------|
-|Proof System      |Groth16                                     |
-|Power of Tau      |2^24                                        |
-|Number of Circuits|3                                           |
-|NeoFS Network     |Mainnet                                     |
-|NeoFS Container   |411d8vuzogogMxXJqTQcu61btgQ6rL2VNYUYnH7r4kE3|
+|Name              |Property                                      |
+|------------------|----------------------------------------------|
+|Proof System      |`Groth16`                                     |
+|Power of Tau      |`2^24`                                        |
+|Number of Circuits|`3`                                           |
+|NeoFS Network     |`Mainnet`                                     |
+|NeoFS Container   |`411d8vuzogogMxXJqTQcu61btgQ6rL2VNYUYnH7r4kE3`|
 
 NGD is responsible for phase initialization and sealing, so we expect the contribution order to be **NGD=>NSPCC=>AxLabs=>lazynode**.
 
@@ -25,48 +25,48 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 
 ## Phase1 Attestations
 
-|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL                                                        |
-|-----------|----------------------------------------------------------------|--------------------------------------------|-----------------------------------------------------------------|
-|NGD        |071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad|4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_1_NGD     |
-|NSPCC      |3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625|4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_2_NSPCC   |
-|AxLabs     |4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e|CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_3_AxLabs  |
-|lazynode   |2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c|8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_4_lazynode|
+|Participant|File Challenge                                                    |NeoFS Object ID                               |Cloud URL                                                        |
+|-----------|------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------|
+|NGD        |`071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad`|`4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_1_NGD     |
+|NSPCC      |`3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625`|`4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_2_NSPCC   |
+|AxLabs     |`4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e`|`CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_3_AxLabs  |
+|lazynode   |`2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c`|`8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_4_lazynode|
 
 The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8` (Hash of Bitcoin [#909534](https://btcscan.org/block/0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8)).
 
 #### Sealed SRS
 
-|File Checksum                                                   |NeoFS Object ID                             |Cloud URL                                                         |
-|----------------------------------------------------------------|--------------------------------------------|------------------------------------------------------------------|
-|1a1f5d0928659170b925d7b681756b82ecade7fa61877042b69e6680a25c53ff|H9i8kUoujytHrsGBRpfWc91M1fE7KnptvFAVgx6nFRx9|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_seal_result|
+|File Checksum                                                     |NeoFS Object ID                               |Cloud URL                                                         |
+|------------------------------------------------------------------|----------------------------------------------|------------------------------------------------------------------|
+|`1a1f5d0928659170b925d7b681756b82ecade7fa61877042b69e6680a25c53ff`|`H9i8kUoujytHrsGBRpfWc91M1fE7KnptvFAVgx6nFRx9`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_seal_result|
 
 ## Phase2 Attestations
 
 ### Circuit 1 (1-Message)
 
-|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
-|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
-|NGD        |1e94c91b881eda204fb19f62052feb111ca413abf4222fb4ae46b7af4badb557|9nZsqb8n3VsjzKWotU8J3gKivsjpBV9MKMdMdpczdZgR|         |
-|NSPCC      |8a4cf7eeedc3b1ad759152cf1102eac1f69ab58cc0f782e1acbdd7b4023688a3|BS1gXCsnwnXH3C9K9MS9Y8RA3NmdXHnaPZNjQx3eQe2Y|         |
-|AxLabs     |538e6543b74b5239249fd35aa146ea892d3ee94700d6a225a7255c1917e09781|5BCRFC4B4iU4XPVsraVFyh69nphZHsZuLtrNhX6Rdn6j|         |
-|lazynode   |                                                                |                                            |         |
+|Participant|File Challenge                                                    |NeoFS Object ID                               |Cloud URL|
+|-----------|------------------------------------------------------------------|----------------------------------------------|---------|
+|NGD        |`1e94c91b881eda204fb19f62052feb111ca413abf4222fb4ae46b7af4badb557`|`9nZsqb8n3VsjzKWotU8J3gKivsjpBV9MKMdMdpczdZgR`|         |
+|NSPCC      |`8a4cf7eeedc3b1ad759152cf1102eac1f69ab58cc0f782e1acbdd7b4023688a3`|`BS1gXCsnwnXH3C9K9MS9Y8RA3NmdXHnaPZNjQx3eQe2Y`|         |
+|AxLabs     |`538e6543b74b5239249fd35aa146ea892d3ee94700d6a225a7255c1917e09781`|`5BCRFC4B4iU4XPVsraVFyh69nphZHsZuLtrNhX6Rdn6j`|         |
+|lazynode   |                                                                  |                                              |         |
 
 ### Circuit 2 (2-Message)
 
-|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
-|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
-|NGD        |ce58359d13e4db9ec16ae19666e0e3b2b9ae252bf695207bcb15349a50cf3f19|DHBCUUaCEoQnxu9VFSPoprfTLqhSKKe9yf2sjFgz8Kat|         |
-|NSPCC      |255f35b1e50849506b37ec4de84038e797fde031c600b39f9a5737ba26edf89f|3Wu65swwiSKHZVPLRouDUC1atQ556uGcDiekwAa7vThE|         |
-|AxLabs     |59332f836c5c370aa4415cac1a9b4be33040db77fb26abe689ed515a319ea448|4qRpGkdjfkcWkKRSjM2R859FG86zNNCN5b9P6yZpsFGK|         |
-|lazynode   |                                                                |                                            |         |
+|Participant|File Challenge                                                    |NeoFS Object ID                               |Cloud URL|
+|-----------|------------------------------------------------------------------|----------------------------------------------|---------|
+|NGD        |`ce58359d13e4db9ec16ae19666e0e3b2b9ae252bf695207bcb15349a50cf3f19`|`DHBCUUaCEoQnxu9VFSPoprfTLqhSKKe9yf2sjFgz8Kat`|         |
+|NSPCC      |`255f35b1e50849506b37ec4de84038e797fde031c600b39f9a5737ba26edf89f`|`3Wu65swwiSKHZVPLRouDUC1atQ556uGcDiekwAa7vThE`|         |
+|AxLabs     |`59332f836c5c370aa4415cac1a9b4be33040db77fb26abe689ed515a319ea448`|`4qRpGkdjfkcWkKRSjM2R859FG86zNNCN5b9P6yZpsFGK`|         |
+|lazynode   |                                                                  |                                              |         |
 
 ### Circuit 3 (7-Message)
 
-|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
-|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
-|NGD        |5cc93a1eec5e77380d915abfad18f531071dd809acbf665bdb08b602f463e821|96x52Scb6iidhUJE1YMCMzCUUbzHqqxriqBmp8Jh2smV|         |
-|NSPCC      |740fec9efcb667b4b92b9dda363de11ae54c3377f5b64dd08e05247eaedf22e5|6b4HEzEibnHyhEKGPSswq64xi584dhofEpQEmZBmaphJ|         |
-|AxLabs     |333ddd24656c1327330bec9ef5088e3d88af6beac0804a77bf050dae29800d0d|8Xt2oo9LbvzHeBK7MRyja4MjJtpu1u4N6eaB1sHRsTRy|         |
-|lazynode   |                                                                |                                            |         |
+|Participant|File Challenge                                                    |NeoFS Object ID                               |Cloud URL|
+|-----------|------------------------------------------------------------------|----------------------------------------------|---------|
+|NGD        |`5cc93a1eec5e77380d915abfad18f531071dd809acbf665bdb08b602f463e821`|`96x52Scb6iidhUJE1YMCMzCUUbzHqqxriqBmp8Jh2smV`|         |
+|NSPCC      |`740fec9efcb667b4b92b9dda363de11ae54c3377f5b64dd08e05247eaedf22e5`|`6b4HEzEibnHyhEKGPSswq64xi584dhofEpQEmZBmaphJ`|         |
+|AxLabs     |`333ddd24656c1327330bec9ef5088e3d88af6beac0804a77bf050dae29800d0d`|`8Xt2oo9LbvzHeBK7MRyja4MjJtpu1u4N6eaB1sHRsTRy`|         |
+|lazynode   |                                                                  |                                              |         |
 
 The beacon challenge for sealing: 
