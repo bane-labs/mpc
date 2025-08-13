@@ -47,7 +47,7 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
 |-----------|----------------------------------------------------------------|--------------------------------------------|---------|
 |NGD        |1e94c91b881eda204fb19f62052feb111ca413abf4222fb4ae46b7af4badb557|9nZsqb8n3VsjzKWotU8J3gKivsjpBV9MKMdMdpczdZgR|         |
-|NSPCC      |                                                                |                                            |         |
+|NSPCC      |8a4cf7eeedc3b1ad759152cf1102eac1f69ab58cc0f782e1acbdd7b4023688a3|BS1gXCsnwnXH3C9K9MS9Y8RA3NmdXHnaPZNjQx3eQe2Y|         |
 |AxLabs     |                                                                |                                            |         |
 |lazynode   |                                                                |                                            |         |
 
@@ -56,7 +56,7 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
 |-----------|----------------------------------------------------------------|--------------------------------------------|---------|
 |NGD        |ce58359d13e4db9ec16ae19666e0e3b2b9ae252bf695207bcb15349a50cf3f19|DHBCUUaCEoQnxu9VFSPoprfTLqhSKKe9yf2sjFgz8Kat|         |
-|NSPCC      |                                                                |                                            |         |
+|NSPCC      |255f35b1e50849506b37ec4de84038e797fde031c600b39f9a5737ba26edf89f|3Wu65swwiSKHZVPLRouDUC1atQ556uGcDiekwAa7vThE|         |
 |AxLabs     |                                                                |                                            |         |
 |lazynode   |                                                                |                                            |         |
 
@@ -65,7 +65,7 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
 |-----------|----------------------------------------------------------------|--------------------------------------------|---------|
 |NGD        |5cc93a1eec5e77380d915abfad18f531071dd809acbf665bdb08b602f463e821|96x52Scb6iidhUJE1YMCMzCUUbzHqqxriqBmp8Jh2smV|         |
-|NSPCC      |                                                                |                                            |         |
+|NSPCC      |740fec9efcb667b4b92b9dda363de11ae54c3377f5b64dd08e05247eaedf22e5|6b4HEzEibnHyhEKGPSswq64xi584dhofEpQEmZBmaphJ|         |
 |AxLabs     |                                                                |                                            |         |
 |lazynode   |                                                                |                                            |         |
 
