@@ -44,33 +44,29 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 
 ### Circuit 1 (1-Message)
 
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
-
-The beacon challenge for sealing: 
+|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
+|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
+|NGD        |1e94c91b881eda204fb19f62052feb111ca413abf4222fb4ae46b7af4badb557|9nZsqb8n3VsjzKWotU8J3gKivsjpBV9MKMdMdpczdZgR|         |
+|NSPCC      |                                                                |                                            |         |
+|AxLabs     |                                                                |                                            |         |
+|lazynode   |                                                                |                                            |         |
 
 ### Circuit 2 (2-Message)
 
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
-
-The beacon challenge for sealing: 
+|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
+|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
+|NGD        |ce58359d13e4db9ec16ae19666e0e3b2b9ae252bf695207bcb15349a50cf3f19|DHBCUUaCEoQnxu9VFSPoprfTLqhSKKe9yf2sjFgz8Kat|         |
+|NSPCC      |                                                                |                                            |         |
+|AxLabs     |                                                                |                                            |         |
+|lazynode   |                                                                |                                            |         |
 
 ### Circuit 3 (7-Message)
 
-|Participant|File Challenge|NeoFS Object ID|Cloud URL|
-|-----------|--------------|---------------|---------|
-|NGD        |              |               |         |
-|NSPCC      |              |               |         |
-|AxLabs     |              |               |         |
-|lazynode   |              |               |         |
+|Participant|File Challenge                                                  |NeoFS Object ID                             |Cloud URL|
+|-----------|----------------------------------------------------------------|--------------------------------------------|---------|
+|NGD        |5cc93a1eec5e77380d915abfad18f531071dd809acbf665bdb08b602f463e821|96x52Scb6iidhUJE1YMCMzCUUbzHqqxriqBmp8Jh2smV|         |
+|NSPCC      |                                                                |                                            |         |
+|AxLabs     |                                                                |                                            |         |
+|lazynode   |                                                                |                                            |         |
 
 The beacon challenge for sealing: 
