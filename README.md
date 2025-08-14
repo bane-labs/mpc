@@ -69,4 +69,4 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |AxLabs     |`333ddd24656c1327330bec9ef5088e3d88af6beac0804a77bf050dae29800d0d`|`8Xt2oo9LbvzHeBK7MRyja4MjJtpu1u4N6eaB1sHRsTRy`|         |
 |Lazynode   |`8d56faadb8e47ccfb2f87cbba48a8f61f4675ae287051e87a68a3da61fe1e6d6`|`5vDCeTE7ynv5ydL17MmRrj9rWsrNy44Me1LHBvxuFtGR`|         |
 
-The beacon challenge for sealing: 
+The beacon challenge for sealing: `00000000000000000000e6bc740876482860c26a196769875c00edeaeeefff20` (Hash of Bitcoin [#909992](https://btcscan.org/block/00000000000000000000e6bc740876482860c26a196769875c00edeaeeefff20)).
