@@ -12,7 +12,7 @@ This is a repository for Neo X ZK-DKG MPC ceremony, please refer [bane-labs/zk-d
 |NeoFS Network     |`Mainnet`                                     |
 |NeoFS Container   |`411d8vuzogogMxXJqTQcu61btgQ6rL2VNYUYnH7r4kE3`|
 
-NGD is responsible for phase initialization and sealing, so we expect the contribution order to be **NGD=>NSPCC=>AxLabs=>lazynode**.
+NGD is responsible for phase initialization and sealing, so we expect the contribution order to be **NGD=>NSPCC=>AxLabs=>Lazynode**.
 
 ## How to Contribute
 
@@ -30,7 +30,7 @@ After all of the MPC contributions, NGD will backup the results to cloud, so ple
 |NGD        |`071d2176b99861f97e57020cd5ef3904299fffb1fdb8bf0994d9bbf5e36f60ad`|`4t51oBmnwu3UHpC35HAS3aoF2jcMtjmpL9df7vZR447r`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_1_NGD     |
 |NSPCC      |`3446c3cc02a91df93846621f7b9d3641ca2638a0c959e2b5e03bc37823f27625`|`4QNXbGzU3ooJgpsR7EVawyKgtrQSDDw5BwdLYeND9gZT`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_2_NSPCC   |
 |AxLabs     |`4a7b705174f35e07672dbf3271cb2dfe2948b2861df4b7e98fece41fe8c3f21e`|`CpbUnRe4qnxQZQH1SrKqCuCXo8aBis4HsuKDeN2ghB6w`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_3_AxLabs  |
-|lazynode   |`2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c`|`8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_4_lazynode|
+|Lazynode   |`2a9d15f8d5dbf0117b4cbb7fd43f41ccd1be3c9409e3d6f7da4964aa6447547c`|`8q5JMQ6x3ELp2XkLeqtGpGGHEiqgvRXL4a6AyHHvobi2`|https://zkstorage.blob.core.windows.net/zk-blob/Phase1_4_Lazynode|
 
 The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8` (Hash of Bitcoin [#909534](https://btcscan.org/block/0000000000000000000083db7a400c903dd45b4a073f645d8c4420170a69eac8)).
 
@@ -49,7 +49,7 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |NGD        |`1e94c91b881eda204fb19f62052feb111ca413abf4222fb4ae46b7af4badb557`|`9nZsqb8n3VsjzKWotU8J3gKivsjpBV9MKMdMdpczdZgR`|         |
 |NSPCC      |`8a4cf7eeedc3b1ad759152cf1102eac1f69ab58cc0f782e1acbdd7b4023688a3`|`BS1gXCsnwnXH3C9K9MS9Y8RA3NmdXHnaPZNjQx3eQe2Y`|         |
 |AxLabs     |`538e6543b74b5239249fd35aa146ea892d3ee94700d6a225a7255c1917e09781`|`5BCRFC4B4iU4XPVsraVFyh69nphZHsZuLtrNhX6Rdn6j`|         |
-|lazynode   |                                                                  |                                              |         |
+|Lazynode   |`a4d1f805cc24c2ec4f01481cafea656c25fbe9f6464d4f6b636e060388951082`|`8xs2wdLiVywCid4Wt6tqQoCQVMT7dEiZJJF5tnpwNWFC`|         |
 
 ### Circuit 2 (2-Message)
 
@@ -58,7 +58,7 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |NGD        |`ce58359d13e4db9ec16ae19666e0e3b2b9ae252bf695207bcb15349a50cf3f19`|`DHBCUUaCEoQnxu9VFSPoprfTLqhSKKe9yf2sjFgz8Kat`|         |
 |NSPCC      |`255f35b1e50849506b37ec4de84038e797fde031c600b39f9a5737ba26edf89f`|`3Wu65swwiSKHZVPLRouDUC1atQ556uGcDiekwAa7vThE`|         |
 |AxLabs     |`59332f836c5c370aa4415cac1a9b4be33040db77fb26abe689ed515a319ea448`|`4qRpGkdjfkcWkKRSjM2R859FG86zNNCN5b9P6yZpsFGK`|         |
-|lazynode   |                                                                  |                                              |         |
+|Lazynode   |`3ac9d298e0f5d7889db486447f72439effbd026e7b446bfa537edff256992488`|`58ttsLQa9moUzULoNjggEYqucDbjPBYwv7L5fkv8pSSa`|         |
 
 ### Circuit 3 (7-Message)
 
@@ -67,6 +67,6 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |NGD        |`5cc93a1eec5e77380d915abfad18f531071dd809acbf665bdb08b602f463e821`|`96x52Scb6iidhUJE1YMCMzCUUbzHqqxriqBmp8Jh2smV`|         |
 |NSPCC      |`740fec9efcb667b4b92b9dda363de11ae54c3377f5b64dd08e05247eaedf22e5`|`6b4HEzEibnHyhEKGPSswq64xi584dhofEpQEmZBmaphJ`|         |
 |AxLabs     |`333ddd24656c1327330bec9ef5088e3d88af6beac0804a77bf050dae29800d0d`|`8Xt2oo9LbvzHeBK7MRyja4MjJtpu1u4N6eaB1sHRsTRy`|         |
-|lazynode   |                                                                  |                                              |         |
+|Lazynode   |`8d56faadb8e47ccfb2f87cbba48a8f61f4675ae287051e87a68a3da61fe1e6d6`|`5vDCeTE7ynv5ydL17MmRrj9rWsrNy44Me1LHBvxuFtGR`|         |
 
 The beacon challenge for sealing: 
