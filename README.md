@@ -73,19 +73,19 @@ The beacon challenge for sealing: `00000000000000000000e6bc740876482860c26a19676
 
 #### Seal result
 
-|Exported Name|File Checksum                                                     |NeoFS Object ID                               |Cloud URL                                                        |
+|Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|File Checksum|NeoFS Object ID|Cloud URL                                               |
 |-------------|------------------------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------|
 |1-Message CCS|`08741f3db4a34f98804c33cc3b719cd6842cc2a433382de020a371999f5be3ae`|`8f6m4RUvgNDyo7gdFhEJQEAqkdaTzEj4oYuLVxfRJP4S`|https://zkstorage.blob.core.windows.net/zk-blob/one_message.ccs  |
 |2-Message CCS|`53d26dba85f5e8d18af471cfccc9aa86eabe758ed3fae28524d4f7b406d76289`|`Fqzn6PvAhmmYWVBRV8dVRWwAL3T8JHgycBfjS7A18z6f`|https://zkstorage.blob.core.windows.net/zk-blob/two_message.ccs  |
 |7-Message CCS|`bcad0a7c3c6005e283daf4baa2af3d74dde3a0fb08713df14ae1772e30cfaa2b`|`2jNd8acKHBb5s6matnED49MCo36vTMWXbfjocT7Xcub7`|https://zkstorage.blob.core.windows.net/zk-blob/seven_message.ccs|
 
-|Exported Name|File Checksum                                                     |NeoFS Object ID                               |Cloud URL                                                       |
+|Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|File Checksum|NeoFS Object ID         |Cloud URL                                                       |
 |-------------|------------------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------|
 |1-Message PK |`3d470a6e43570f2c8d171e299a384749809b5211bc1af0710f6d45b56ec69373`|`HZVzrU7348zztWvgBTM3xkpvZ6BNNJMGDrKyeDDTHZLw`|https://zkstorage.blob.core.windows.net/zk-blob/one_message.pk  |
 |2-Message PK |`1d92851d68e8d7787656ceaaa1241c3d5aee29ce8396b22b1eaa4cffeeb442cc`|`HKEeCskBjnL5yJGXYP4EfakVaDsw3aAJ64FXavDhpv4E`|https://zkstorage.blob.core.windows.net/zk-blob/two_message.pk  |
 |7-Message PK |`39fbe9b2c54be6a150a05b598875c220894b8580e202a343d7974e133b6eca10`|`A1DTHYvdnzrgEJP14yzt2T8AXsuM3YaNDoe3LoMWXepT`|https://zkstorage.blob.core.windows.net/zk-blob/seven_message.pk|
 
-|Exported Name|Value                                     |Verifier Contract                                               |
+|Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Value|Verifier Contract         |
 |-------------|------------------------------------------|----------------------------------------------------------------|
 |1-Message VK |[one_message.vk](./vks/one_message.vk)    |[OneMessageVerifier.sol](./contracts/OneMessageVerifier.sol)    |
 |2-Message VK |[two_message.vk](./vks/two_message.vk)    |[TwoMessageVerifier.sol](./contracts/TwoMessageVerifier.sol)    |
