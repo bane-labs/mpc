@@ -70,3 +70,23 @@ The beacon challenge for sealing: `0000000000000000000083db7a400c903dd45b4a073f6
 |Lazynode   |`8d56faadb8e47ccfb2f87cbba48a8f61f4675ae287051e87a68a3da61fe1e6d6`|`5vDCeTE7ynv5ydL17MmRrj9rWsrNy44Me1LHBvxuFtGR`|         |
 
 The beacon challenge for sealing: `00000000000000000000e6bc740876482860c26a196769875c00edeaeeefff20` (Hash of Bitcoin [#909992](https://btcscan.org/block/00000000000000000000e6bc740876482860c26a196769875c00edeaeeefff20)).
+
+#### Seal result
+
+|Variable     |File Checksum                                                     |NeoFS Object ID                               |Cloud URL|
+|-------------|------------------------------------------------------------------|----------------------------------------------|---------|
+|1-Message CCS|`08741f3db4a34f98804c33cc3b719cd6842cc2a433382de020a371999f5be3ae`|`8f6m4RUvgNDyo7gdFhEJQEAqkdaTzEj4oYuLVxfRJP4S`|         |
+|2-Message CCS|`53d26dba85f5e8d18af471cfccc9aa86eabe758ed3fae28524d4f7b406d76289`|`Fqzn6PvAhmmYWVBRV8dVRWwAL3T8JHgycBfjS7A18z6f`|         |
+|7-Message CCS|`bcad0a7c3c6005e283daf4baa2af3d74dde3a0fb08713df14ae1772e30cfaa2b`|`2jNd8acKHBb5s6matnED49MCo36vTMWXbfjocT7Xcub7`|         |
+
+|Variable    |File Checksum                                                     |NeoFS Object ID                               |Cloud URL|
+|------------|------------------------------------------------------------------|----------------------------------------------|---------|
+|1-Message PK|`3d470a6e43570f2c8d171e299a384749809b5211bc1af0710f6d45b56ec69373`|`HZVzrU7348zztWvgBTM3xkpvZ6BNNJMGDrKyeDDTHZLw`|         |
+|2-Message PK|`1d92851d68e8d7787656ceaaa1241c3d5aee29ce8396b22b1eaa4cffeeb442cc`|`HKEeCskBjnL5yJGXYP4EfakVaDsw3aAJ64FXavDhpv4E`|         |
+|7-Message PK|`39fbe9b2c54be6a150a05b598875c220894b8580e202a343d7974e133b6eca10`|`A1DTHYvdnzrgEJP14yzt2T8AXsuM3YaNDoe3LoMWXepT`|         |
+
+|Variable    |Value                                     |Verifier Contract                                               |
+|------------|------------------------------------------|----------------------------------------------------------------|
+|1-Message VK|[one_message.vk](./vks/one_message.vk)    |[OneMessageVerifier.sol](./contracts/OneMessageVerifier.sol)    |
+|2-Message VK|[two_message.vk](./vks/two_message.vk)    |[TwoMessageVerifier.sol](./contracts/TwoMessageVerifier.sol)    |
+|7-Message VK|[seven_message.vk](./vks/seven_message.vk)|[SevenMessageVerifier.sol](./contracts/SevenMessageVerifier.sol)|
